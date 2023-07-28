@@ -1,3 +1,5 @@
+wait(4)
+
 local folderName = "BoostGUI"
 local fileName = "settings.json"
 local filePath = folderName .. "/" .. fileName
