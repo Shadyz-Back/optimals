@@ -56,7 +56,7 @@ end
 
 -- Function to disable rendering
 local function disableRendering()
-    setfpscap(8)
+    setfpscap(15)
     writefile(filePath, '{"render":false}')
     game:GetService("RunService"):Set3dRenderingEnabled(false)
     workspace.ClientAnimatorThrottling = Enum.ClientAnimatorThrottlingMode.Enabled
