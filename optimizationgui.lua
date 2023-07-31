@@ -1,4 +1,4 @@
-wait(4)
+wait(1)
 
 local folderName = "BoostGUI"
 local fileName = "settings.json"
